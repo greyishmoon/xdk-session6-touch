@@ -17,7 +17,7 @@ function onAppReady() {
   	});   
     
     $('#swipetext').on("swiperight",function(){
-    	$(this).css('color', 'black');
+    	$(this).css('color', 'blue');
   	});   
         
         
