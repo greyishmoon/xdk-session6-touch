@@ -28,7 +28,46 @@
 
 <body>
 
-    <p>Hello, Cordova!</p>
+<div data-role="page" id="pageone" >
+    <div data-role="header">
+        <h1>The taphold Event</h1>
+    </div>
+
+    <div data-role="main" class="ui-content" >
+  
+		<button id="tapholdtext">If you tap and hold me for one second, I will disappear</button>
+    	<button id="taptext">If you tap me I will turn red.</button>
+    	<button id="swipetext">If you swipe left on me I will turn green and blue if you swipe right.</button>
+        
+<!--        <button id="swipenav">Swipe left for page 2.</button>-->
+ 
+    </div>
+  
+  
+
+    <div data-role="footer" data-position="fixed" id="swipenav">
+        <h1>Swipe left on page for page 2.</h1>
+    </div>
+</div> 
+    
+    
+<div data-role="page" id="pagetwo" >
+    <div data-role="header">
+        <h1>Page 2</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+  
+<!--        <button id="swipenav2">Swipe right for page 1.</button>-->
+ 
+    </div>
+  
+  
+
+    <div data-role="footer" data-position="fixed" id="swipenav2">
+        <h1>Swipe right on page for page 1.</h1>
+    </div>
+</div> 
 
 </body>
 </html>
